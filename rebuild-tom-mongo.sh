@@ -15,5 +15,5 @@ if [ $(docker ps -a -q -f name=$mongo_express_container) ]; then
 fi
 
 # 運行 docker-compose
-docker-compose up -d
+docker compose up -d
 
